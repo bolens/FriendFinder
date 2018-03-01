@@ -7,6 +7,18 @@
 .slider.slider-vertical:hover .tooltip.tooltip-main {
   opacity: 1 !important;
 }
+.slider.slider-horizontal:hover .tooltip.tooltip-main.top .tooltip-arrow:after,
+.slider.slider-vertical:hover .tooltip.tooltip-main.top .tooltip-arrow:after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -10px;
+  border: transparent 5px solid;
+  border-top: #000 5px solid;
+}
 
 footer {
   background-color: #f5f5f5;
