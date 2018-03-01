@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	// Instantiate a slider
+	// Instantiate sliders
 	var mySlider = $("input.slider").slider({
 		tooltip: 'show',
 		formatter: function(value) {
