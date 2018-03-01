@@ -1,5 +1,11 @@
 
-# Created by https://www.gitignore.io/api/node,macos
+# Created by https://www.gitignore.io/api/node,macos,bower
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
 
 ### macOS ###
 *.DS_Store
@@ -55,7 +61,6 @@ coverage
 .grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -90,4 +95,4 @@ typings/
 
 
 
-# End of https://www.gitignore.io/api/node,macos
+# End of https://www.gitignore.io/api/node,macos,bower

@@ -1,0 +1,22 @@
+{
+  "name": "friendfinder",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Michael Bolens"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/bolensmichael/FriendFinder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap4": "^4.0.0",
+    "seiyria-bootstrap-slider": "^10.0.0"
+  }
+}
