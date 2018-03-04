@@ -130,7 +130,7 @@ function determineClosestMatch() {
 		let scoreDiff = 0;
 		let closestMatch;
 		let closestScore = 1000;
-		for (var i = 0; i < data.length - 1; i++) {
+		for (let i = 0; i < data.length - 1; i++) {
 			currUser.scores.forEach(function(currScore, index) {
 				scoreDiff += Math.abs(data[i].scores[index] - currScore);
 			});
