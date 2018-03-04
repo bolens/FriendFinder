@@ -1,4 +1,4 @@
-let friendArray = {
+let friendArray = [{
   "name":"Michael",
   "photo":"http://cdn.history.com/sites/2/2017/03/GettyImages-157278376.jpg",
   "scores":[
@@ -13,6 +13,6 @@ let friendArray = {
       4,
       1
     ]
-};
+}];
 
 module.exports = friendArray;

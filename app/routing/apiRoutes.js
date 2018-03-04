@@ -7,13 +7,10 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
-    if (friendsData.length < 5) {
-      friendsData.push(req.body);
-      res.json(true);
-    }
-    else {
-      friendsData.push(req.body);
-      res.json(false);
-    }
+    let newFriend = req.body;
+    console.log(newFriend);
+    friendsData.push(newFriend);
+    console.log("New potential friend added!");
+    res.json(newFriend);
   });
 };

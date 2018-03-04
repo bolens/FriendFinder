@@ -15,6 +15,8 @@ app.use('/scripts/slider', express.static(__dirname + '/bower_components/seiyria
 app.use('/scripts/jquery', express.static(__dirname + '/bower_components/jquery/dist/'));
 app.use('/scripts/app', express.static(__dirname + '/app/js/'));
 
+app.use(bodyParser.urlencoded({ extended: true }));
+
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 

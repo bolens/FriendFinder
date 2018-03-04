@@ -25,8 +25,8 @@
 <body>
   <div class="jumbotron">
     <h1 class="text-center">
-        Friend Finder
-      </h1>
+      Friend Finder
+    </h1>
   </div>
   <div class="container">
     <div class="row justify-content-lg-center">
@@ -38,10 +38,10 @@
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="First name">
+            <input id="nameFirst" type="text" class="form-control" placeholder="First name">
           </div>
           <div class="form-group col-md-6">
-            <input type="text" class="form-control" placeholder="Last name">
+            <input id="nameLast" type="text" class="form-control" placeholder="Last name">
           </div>
         </div>
         <div class="form-row">
@@ -51,87 +51,101 @@
         </div>
         <div class="form-row">
           <div class="form-group col-md-12">
-            <input type="text" class="form-control" placeholder="Image url">
+            <input id="profilePhoto" type="text" class="form-control" placeholder="Image url">
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 1:</h4>
-            <label for="inputState">Question 1.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="col">
+            <h4>Questions:</h4>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 2:</h4>
-            <label for="inputState">Question 2.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like dogs? (1 Lowest, 10 Highest)</label>
+            <input id="q1" class="slider" data-slider-id='q1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 3:</h4>
-            <label for="inputState">Question 3.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like cats? (1 Lowest, 10 Highest)</label>
+            <input id="q2" class="slider" data-slider-id='q2Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 4:</h4>
-            <label for="inputState">Question 4.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like to travel? (1 Lowest, 10 Highest)</label>
+            <input id="q3" class="slider" data-slider-id='q3Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 5:</h4>
-            <label for="inputState">Question 5.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like to ski or snowboard? (1 Lowest, 10 Highest)</label>
+            <input id="q4" class="slider" data-slider-id='q4Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 6:</h4>
-            <label for="inputState">Question 6.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like small talk? (1 Lowest, 10 Higest)</label>
+            <input id="q5" class="slider" data-slider-id='q5Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 7:</h4>
-            <label for="inputState">Question 7.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like deep conversation? (1 Lowest, 10 Highest)</label>
+            <input id="q6" class="slider" data-slider-id='q6Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 8:</h4>
-            <label for="inputState">Question 8.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like to hike? (1 Lowest, 10 Highest)</label>
+            <input id="q7" class="slider" data-slider-id='q7Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 9:</h4>
-            <label for="inputState">Question 9.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like to go to breweries? (1 Lowest, 10 Highest)</label>
+            <input id="q8" class="slider" data-slider-id='q8Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <h4>Question 10:</h4>
-            <label for="inputState">Question 10.</label>
-            <input id="ex1" class="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          <div class="form-group col">
+            <label for="inputState">How much do you like to explore new places? (1 Lowest, 10 Highest)</label>
+            <input id="q9" class="slider" data-slider-id='q9Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col">
+            <label for="inputState">How much do you like movies? (1 Lowest, 10 Highest)</label>
+            <input id="q10" class="slider" data-slider-id='q10Slider' type="range" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
           </div>
         </div>
         <div class="form-row">
           <div class="col-md-3 offset-md-9">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button id="surveySubmit" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#friendModal">Submit</button>
           </div>
         </div>
       </form>
     </div>
-
+  </div>
+  <div id="closestFriend">
+    <div id="friendModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="closestName" class="modal-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img id="closestPhoto" src="" alt=""/>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="footer">
     <div class="container">
