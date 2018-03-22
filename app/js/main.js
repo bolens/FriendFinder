@@ -123,7 +123,6 @@ $(document).ready(function() {
 });
 
 function determineClosestMatch() {
-	// TODO: finish comparison logic and add modal popup
 	$.get("/api/friends", function(data) {
 		let currUser = data[data.length - 1];
 		console.log(currUser);
